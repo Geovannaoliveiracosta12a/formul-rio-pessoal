@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>formulário</title>
+</head>
+<body>
+    <div class="form_completo">
+    <div class="h1">
+    <h1>Formulário Bibliotecário</h1>
+</div>
+
+<form action="">
+    <div class="nome">
+        <label for="nome">Insira seu Nome:</label><br>
+        <div class="input_nome">
+        <input type="text" name="nome" placeholder="Digite o seu nome..." required>
+    </div>
+    </div>
+
+    <div class="email">
+    <label for="email">Insira o seu E-mail</label><br>
+    <div class="input_email">
+    <input type="email" placeholder="Digite o seu E-mail..."required>
+</div>
+    </div>
+
+    <div class="senha">
+        <label for="senha">Insira uma senha de segurança</label><br>
+        <div class="input_senha">
+        <input type="password" placeholder="Insira uma senha..." required>
+    </div>
+    </div>
+
+    <div class="idade">
+        <label for="idade">Insira a sua data de nascimento</label><br>
+        <div class="input_idade">
+        <input type="date"required>
+    </div>
+    </div>
+
+    <div class="frequencia">
+        <label for="frequência">Selecione a frequência que você irá voltar</label><br>
+        <div class="input_frequencia">
+
+        <select name="frequência" id="frequencia">
+        </div>
+        <option desabled selected>selecionar</option>
+        <option value="2-3 vezes no mês">2-3 dias na semana</option>
+        <option value="4-5 vezes no mês">2-3 dias na semana</option>
+        <option value="6-7 vezes no mês">2-3 dias na semana</option>
+        <option value="8-9 vezes no mês">2-3 dias na semana</option>
+    </select required>
+
+    </div>
+
+    <div class="h2"><h2>Qual o seu Gênero?</h2></div>
+
+    <div class="feminino">
+          <input type="radio"name="genero" required>
+         <label for="genero">Feminino</label>
+     </div>
+
+     <div class=" masculino">
+        <input type="radio" name="genero"required>
+       <label for="genero">Masculino</label>
+   </div>
+
+   <div class="outros">
+    <input type="radio"name="genero"required>
+   <label for="genero">Outros</label>
+</div>
+
+<div class="prefiro">
+    <input type="radio"name="genero"required>
+   <label for="genero">Prefiro não dizer</label>
+</div>
+
+<div class="leitura">
+    <h2>De quais tipos de leitra você gosta?</h2>
+</div>
+
+<div class="dark">
+    <input type="checkbox" name="tipo de leitura">
+    <label for="dark-romance">dark-romance</label>
+</div>
+
+<div class="romance">
+    <input type="checkbox" name="tipo de leitura">
+    <label for="romance">Romance</label>
+</div>
+
+<div class="comedia">
+    <input type="checkbox" name="tipo de leitura">
+    <label for="Comedia">Comédia</label>
+</div>
+
+<div class="terror">
+    <input type="checkbox" name="tipo de leitura">
+    <label for="Terror">Terror</label>
+</div>
+
+<div class="area_texto">
+    <label for="sobre você">Fale sobre você</label><br>
+    <textarea name="sobre você" id="sobre você"></textarea >
+</div>
+
+<div class="botao">
+    <button>
+        Submit
+    </button>
+</div>
+
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+body{
+    width: fit-content;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Montserrat';
+    background-color: #e0aaff;
+}
+
+
+.label{
+    display: block;
+
+   
+}
+
+.form_completo{
+    padding: 30px  60px 30px 60px;
+    width: 100%;
+    background-color: #c77dff;
+    border-radius: 40px;
+    margin: auto;
+
+    font-style: italic;
+}
+
+.input_nome{
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #5a189a;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 0px #5a189a;
+
+
+}
+
+.input_email{
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #5a189a;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 0px #5a189a;
+
+}
+
+.input_senha{
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #5a189a;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 0px #5a189a;
+}
+
+.input_idade{
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #5a189a;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 0px #5a189a;
+}
+
+.input_frequencia{
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #5a189a;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 0px #5a189a;
+}
+.email{
+    margin-top: 10px;
+    
+    
+}
+
+.senha{
+    margin-top: 10px;
+}
+
+.idade{
+    margin-top: 10px;
+}
+
+.frequencia{
+    margin-top: 10px;
+}
+
+.masculino{
+    margin-top: 5px;
+}
+
+.outros{
+    margin-top: 5px;
+}
+
+.prefiro{
+    margin-top: 5px;
+}
+
+.romance{
+    margin-top: 5px;
+}
+
+.comedia{
+    margin-top: 5px;
+}
+
+.terror{
+    margin-top: 5px;
+}
+
+.area_texto{
+    margin-top: 10px;
+}
+
+.botao{
+    margin-top: 30px;
+}
