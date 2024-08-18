@@ -15,6 +15,11 @@ body{
     color: #240046;
     font-family: 'mulish';
     font-size: 20px;
+     text-align: center;
+}
+
+.melhor_da_regiao{
+    text-align: center;
 }
 
 .h2{
