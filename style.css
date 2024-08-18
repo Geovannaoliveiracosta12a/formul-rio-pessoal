@@ -6,8 +6,32 @@ body{
     height: 100vh;
     font-family: 'Montserrat';
     background-color: #e0aaff;
+    outline: none;
+    border: none;
 }
 
+
+.h1{
+    color: #240046;
+}
+
+.h2{
+    color: #240046;
+}
+
+.gostar{
+    color: #240046;
+}
+
+.area_texto{
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #5a189a;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 0px #5a189a;
+}
 
 .label{
     display: block;
@@ -21,8 +45,10 @@ body{
     background-color: #c77dff;
     border-radius: 40px;
     margin: auto;
+    outline: none;
 
     font-style: italic;
+    
 }
 
 .input_nome{
@@ -32,9 +58,15 @@ body{
     border: 1px solid #5a189a;
     width: 100%;
     box-sizing: border-box;
-    box-shadow: 0px 4px 0px #5a189a;
+    box-shadow: 0px 4px 0px #5a189a
+    
+    
+}
 
-
+.input_nome:focus{
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ appearance: none;
 }
 
 .input_email{
@@ -56,6 +88,9 @@ body{
     width: 100%;
     box-sizing: border-box;
     box-shadow: 0px 4px 0px #5a189a;
+    border: none !important;
+    outline: none;
+    margin: 0%;
 }
 
 .input_idade{
@@ -76,10 +111,10 @@ body{
     width: 100%;
     box-sizing: border-box;
     box-shadow: 0px 4px 0px #5a189a;
+    border: none;
 }
 .email{
     margin-top: 10px;
-    
     
 }
 
@@ -93,6 +128,7 @@ body{
 
 .frequencia{
     margin-top: 10px;
+    border: 10px #10002b;
 }
 
 .masculino{
@@ -125,4 +161,23 @@ body{
 
 .botao{
     margin-top: 30px;
+    background-color: #5a189a;
+    color: #c77dff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: #10002b 0px 4px 0px;
+    width: 15%;
+    transition: 0.3s;
+    display: block;
+    border: none;
+    
+}
+
+.botao:hover{
+    background-color: #e0aaff;
+    box-shadow: 0px 4px 0px #9d4edd;
+    outline: none;
+    border: none;
 }
