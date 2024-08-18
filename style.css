@@ -13,14 +13,18 @@ body{
 
 .h1{
     color: #240046;
+    font-family: 'mulish';
+    font-size: 20px;
 }
 
 .h2{
     color: #240046;
+    font-family: 'mulish';
 }
 
 .gostar{
     color: #240046;
+    font-family: 'mulish';
 }
 
 .area_texto{
@@ -128,7 +132,9 @@ body{
 
 .frequencia{
     margin-top: 10px;
-    border: 10px #10002b;
+    border: none #10002b;
+    display: block;
+    outline: none;
 }
 
 .masculino{
@@ -160,24 +166,23 @@ body{
 }
 
 .botao{
-    margin-top: 30px;
-    background-color: #5a189a;
-    color: #c77dff;
-    padding: 10px 20px;
-    border-radius: 15px;
-    cursor: pointer;
-    font-size: 16px;
-    box-shadow: #10002b 0px 4px 0px;
-    width: 15%;
-    transition: 0.3s;
-    display: block;
-    border: none;
+   display: block;
+   width: 15%;
+   padding: 10px 20px;
+   background-color: #e0aaff;
+   color: #10002b;
+   border-radius: 20px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: 0.3s;
+   margin-top: 30px;
+
+   box-shadow: #5a189a 0px 4px 0px;
     
 }
 
 .botao:hover{
-    background-color: #e0aaff;
-    box-shadow: 0px 4px 0px #9d4edd;
-    outline: none;
-    border: none;
+    background-color: #5a189a;
+    box-shadow: #240046 0px 4px 0px;
+  
 }
